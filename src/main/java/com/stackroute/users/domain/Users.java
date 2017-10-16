@@ -1,6 +1,7 @@
 package com.stackroute.users.domain;
 
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +13,7 @@ public class Users {
 	@Id
 	
 //	private String userId;
-	@GeneratedValue()
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int id;
 	private String userName;
 	private String emailID;

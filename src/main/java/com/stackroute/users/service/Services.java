@@ -15,14 +15,14 @@ public class Services {
 	Repository repository;
 
 
-//
-//public Repository getRepository() {
-//	return repository;
-//}
-//
-//public void setRepository(Repository repository) {
-//	this.repository = repository;
-//}
+
+public Repository getRepository() {
+	return repository;
+}
+
+public void setRepository(Repository repository) {
+	this.repository = repository;
+}
 
 public List<Users> getAllUsers( )
 {
