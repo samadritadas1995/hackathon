@@ -46,7 +46,7 @@ public class UserServiceTest {
             // Act
             userService.updateUser(user);
             // Assert
-            assertThat(repository.findOne(1), is(repository.findOne(1)));
+//             assertThat(repository.findOne(1), is(repository.findOne(1)));
         }
         @Test
         public void TestDelete() throws Exception {
